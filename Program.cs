@@ -7,15 +7,11 @@ namespace LinkedListAsmnt
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the Stack Problem");
-            linkliststack linkedListStack = new linkliststack();
-            linkedListStack.Push(56);
-            linkedListStack.Push(30);
-            linkedListStack.Push(70);
-            linkedListStack.Display();
-            linkedListStack.Peek();
-            linkedListStack.Pop();
-            linkedListStack.Display();
-            linkedListStack.Peek();
+            linllistqueue obj = new linllistqueue();
+            obj.Enqueue(56);
+            obj.Enqueue(30);
+            obj.Enqueue(70);
+            obj.Display();
 
         }
     }
