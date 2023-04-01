@@ -12,6 +12,10 @@ namespace LinkedListAsmnt
             linkedListStack.Push(30);
             linkedListStack.Push(70);
             linkedListStack.Display();
+            linkedListStack.Peek();
+            linkedListStack.Pop();
+            linkedListStack.Display();
+            linkedListStack.Peek();
 
         }
     }
